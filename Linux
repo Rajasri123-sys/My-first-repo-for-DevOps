@@ -30,3 +30,6 @@ Ex: 172.16.3.0/24
 24 bits remain constant, only last 8 bits varies.
 
 172.16.0.0 --> 172.16.255.255   (256 IP address)
+
+In a network when we create a VPC, it will initially ask for a range.
+192.16.0.0/16 (65000 IP address)
