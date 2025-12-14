@@ -1,0 +1,12 @@
+Shell Scripting in a Linux is a process of automating your day-to-day activities on your Linux computer.
+
+COMMANDS:
+Touch - to create file
+Ex: Touch first.sh (sh-extention for shell scripting)
+
+ls - shows all the files
+
+ls-ltr - To look the files with timestamp which file is created first.
+
+man - gives the details of the commands.
+
