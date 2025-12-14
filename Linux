@@ -33,3 +33,18 @@ Ex: 172.16.3.0/24
 
 In a network when we create a VPC, it will initially ask for a range.
 192.16.0.0/16 (65000 IP address)
+
+I want subnet with 64 IP addresses
+192.16.5.0/2 power 6  -> 32-26 2 power 6 = 64
+
+192
+172
+10   - These are private subnet.
+
+Google - 8.8.8.8
+
+PORTS:
+Port is a unique number for your application.
+Whenever we create IP addresses to connect to websites we provide some ports.
+In an instance there can be hundreds of application and using port you can distinguish the request has to go to which particular application.
+Whenever you create application on a virtual machine. To access this application from the internet you need two things. One is the IP address of this virtual machine.
