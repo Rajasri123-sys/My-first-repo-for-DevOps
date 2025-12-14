@@ -48,3 +48,11 @@ Port is a unique number for your application.
 Whenever we create IP addresses to connect to websites we provide some ports.
 In an instance there can be hundreds of application and using port you can distinguish the request has to go to which particular application.
 Whenever you create application on a virtual machine. To access this application from the internet you need two things. One is the IP address of this virtual machine.
+
+OSI MODEL:
+Helps you understand the journey of data across the internet.
+OSI Model explains everything in 7 layers.
+ 1. DNS Resolution - Complete records are available
+ 2. TCP Handshake
+
+if these both completed then your data initiation or data request initiation starts.
