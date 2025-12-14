@@ -1,2 +1,25 @@
 IP Address
 Used to generate unique address to a particular device that is connected to your network.
+To generate IP Address, standard we used is IPv4
+Dot(.) - each of them vary from 0 to 255.
+0-255*0-255*0-255*0-255
+why 255 - computer understands bits.
+IP Address - 4 bytes (32(4*8) bits)
+
+________ | ________ | ________ | ________
+   1          2         3         4
+
+Ex: 172.32.16.1
+
+Subnet:
+dividing into separate sections and using
+Advantage:
+1. Security
+2. Privacy
+3. Isolation
+
+Private subnet - does not have access to internet
+Public subnet - have access to internet - AWS - Route tables - acts as internet gateway
+
+whenever we create a subnet you will be asked to provide a CIDR range (Cider)
+CIDR: Way of explaining how many IP addresses are available in a particular subnet.
