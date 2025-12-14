@@ -60,7 +60,7 @@ if these both completed then your data initiation or data request initiation sta
 L7 - https request -> Application layer
 L6 - encryption / Data Formatting
 L5 - session -> Session layer
-Taken care by browser
+These 3 layers are taken care by browser.
 L4 - Segmented and split into parts - TCP/UDP -> Transport layer.
 if we are using http TCP is the protocol that is used to transmit the data from here on.
 Segments are transmitted using TCP protocol.
@@ -74,3 +74,6 @@ If you are using router the data is converted into packets.
 If you are using Switched the data is converted into Frames.
 From router this request is being sent to switches and switches only understands how data can be transmitted in the frames.
 L1 - Optical cables( electronic signals) 
+
+When you are sending the request from L7 to L1 data is transmitted through L7 to L1 layers.
+When you are at the receiving end data is received from L1 to L7.
