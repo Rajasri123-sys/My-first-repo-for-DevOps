@@ -23,3 +23,10 @@ Public subnet - have access to internet - AWS - Route tables - acts as internet 
 
 whenever we create a subnet you will be asked to provide a CIDR range (Cider)
 CIDR: Way of explaining how many IP addresses are available in a particular subnet.
+
+When you create this particular subnet let's use AWS as an example.Create a subnet you need to go to the VPC first. Go to the subnet and within this subnet. while creating the subnet you will be asked for CIDR.
+
+Ex: 172.16.3.0/24
+24 bits remain constant, only last 8 bits varies.
+
+172.16.0.0 --> 172.16.255.255   (256 IP address)
